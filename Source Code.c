@@ -1,15 +1,12 @@
 /* 
-
 sample Output for file : 
     that shuld be appended at at last of .html file..
 
 
         <div class="box">
 
-            <div class="hero">Hero Tag</div>
-            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sequi incidunt voluptatem
-                consectetur accusantium magnam sit repudiandae. Nam libero doloribus esse maiores nisi ut consectetur
-                asperiores. Voluptatum tempore ipsa doloribus.</p>
+            <div class="hero">User Name</div>
+            <p class="para">Address</p>
         </div>
 
 */
@@ -41,7 +38,7 @@ int main(){
     struct student s[max];
 
     for(int i=0; i<max; i++){
-        printf("\nInput Roll Number\t:\t");
+        printf("\nInput Mobile Number\t:\t");
         scanf("%d",&s[i].rNo);
     fflush(stdin);
 
@@ -52,7 +49,7 @@ int main(){
     }
 
     // for(int i=0; i<max; i++){
-    //     printf("\nRoll Number\t:%d",s[i].rNo);
+    //     printf("\nMobile Number\t:%d",s[i].rNo);
     //     printf("\nStuednt Name\t\t:%s %s\n",s[i].Fname,s[i].Lname);
         
     // }
@@ -64,7 +61,7 @@ db= fopen("index.html","a");
     for(int i=0; i<max; i++){
         fprintf(db,"\n\n<div class=\"box\">\n\n");
             fprintf(db,"\t<div class=\"hero\">%s %s </div>\n",s[i].Fname,s[i].Lname);
-            fprintf(db,"\t<p class=\"para\"> Roll number : %d</p>\n\n",s[i].rNo);
+            fprintf(db,"\t<p class=\"para\"> Mobile number : %d</p>\n\n",s[i].rNo);
         fprintf(db,"</div>");
     }
 

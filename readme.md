@@ -16,7 +16,7 @@ where the data can be stored and view by order ..
 
 <b>Usage</b>
 <br>
-This program can be used to write entries like attandence or any dataas per requirement.
+This program can be used to write entries like Phone Directory or any dataas per requirement.
 in orer and later that data can be viewed on html ..
 
 it can store related value .. and can be seen via any web-browser 
@@ -30,11 +30,12 @@ all (c/html/css/js) althogh i didn't them all the best i could ..
 
 <br> as it still lags some important Features like...
 <ul><b>Missing features</b>
-<li>Searching</li>
-<li>Sorting By Name</li>
-<li>Sorting By Roll Number</li>
-<li>Running program Via Btn inside html</li>
+<li>Searching (Fixed)</li> 
+<li>Sorting By Name </li>
+<li>Sorting By Mobile Number</li>
+<li>Running C program Via Btn inside html</li>
 <li>Adding things Seemlessly </li>
+<li>Removing things Seemlessly </li>
 etc ...
 </ul>
 
@@ -85,5 +86,6 @@ again and again ..
 </p>
 
 <h2>You Came to end of Readme</h2>
+<h2>Made With Love By : Nikhil Tiwari</h2>
 
 <a href="#top">GOTO TOP</a>
